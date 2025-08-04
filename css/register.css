@@ -1,0 +1,97 @@
+/* 注册页面特定样式 */
+.register-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f7ff; /* 浅天蓝色背景 */
+}
+
+.register-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #4a90e2; /* 天蓝色 */
+    outline: none;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 8px;
+}
+
+.radio-group input, .checkbox-group input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.register-btn {
+    padding: 12px 24px;
+    background-color: #4a90e2; /* 天蓝色 */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #3a7bc8; /* 更深的天蓝色 */
+}
+
+.login-link, .reset-btn {
+    color: #4a90e2; /* 天蓝色 */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.reset-btn {
+    background: none;
+    border: none;
+    color: #4a90e2; /* 天蓝色 */
+    cursor: pointer;
+    font-size: 16px;
+}
