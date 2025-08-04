@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamyD - 注册</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>DreamyD</h1>
+            </div>
+            <div class="nav">
+                <ul class="main-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="register.html">注册</a></li>
+                    <li><a href="login.html">登录</a></li>
+                </ul>
+            </div>
+            <div class="user-actions">
+                <a href="login.html" class="login-btn">登录</a>
+                <a href="register.html" class="register-btn active">注册</a>
+                <a href="cart.html" class="cart-icon">购物车(0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 注册表单 -->
+    <section class="register-section">
+        <div class="container">
+            <h2>DreamyD注册</h2>
+            <form id="registerForm" action="#" method="post">
+                <div class="form-group">
+                    <label for="reg-username">账号：</label>
+                    <input type="text" id="reg-username" name="username" required>
+                    <span class="error-message" id="reg-username-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">密码：</label>
+                    <input type="password" id="reg-password" name="password" required>
+                    <span class="error-message" id="reg-password-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">确认密码：</label>
+                    <input type="password" id="confirm-password" name="confirmPassword" required>
+                    <span class="error-message" id="confirm-password-error"></span>
+                </div>
+                <div class="form-group">
+                    <label>性别：</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <label for="male">女</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">男</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthday">生日：</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="form-group">
+                    <label>爱好：</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="hobby1" name="hobbies" value="fashion">
+                        <label for="hobby1">时尚</label>
+                        <input type="checkbox" id="hobby2" name="hobbies" value="shopping">
+                        <label for="hobby2">购物</label>
+                        <input type="checkbox" id="hobby3" name="hobbies" value="beauty">
+                        <label for="hobby3">美容</label>
+                        <input type="checkbox" id="hobby4" name="hobbies" value="travel">
+                        <label for="hobby4">旅行</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">手机号码：</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="register-btn">注册</button>
+                    <a href="login.html" class="login-link">已有账号？立即登录</a>
+                    <button type="reset" class="reset-btn">重置</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于DreamyD</h3>
+                    <p>DreamyD专注于为年轻女性提供时尚、高品质的服饰、鞋子和配饰。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p>电话: 400-123-4567</p>
+                    <p>邮箱: service@dreamyd.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-icons">
+                        <a href="#">微信</a>
+                        <a href="#">微博</a>
+                        <a href="#">小红书</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 DreamyD 女装时尚 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

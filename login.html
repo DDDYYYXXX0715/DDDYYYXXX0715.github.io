@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamyD - 登录</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>DreamyD</h1>
+            </div>
+            <div class="nav">
+                <ul class="main-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="register.html">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+            <div class="user-actions">
+                <a href="login.html" class="login-btn active">登录</a>
+                <a href="register.html" class="register-btn">注册</a>
+                <a href="cart.html" class="cart-icon">购物车(0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 登录表单 -->
+    <section class="login-section">
+        <div class="container">
+            <h2>DreamyD登录</h2>
+            <form id="loginForm" action="#" method="post">
+                <div class="form-group">
+                    <label for="username">账号：</label>
+                    <input type="text" id="username" name="username" required>
+                    <span class="error-message" id="username-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">密码：</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="error-message" id="password-error"></span>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="login-btn">登录</button>
+                    <a href="register.html" class="register-link">没有账号？立即注册</a>
+                    <button type="reset" class="reset-btn">重置</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于DreamyD</h3>
+                    <p>DreamyD专注于为年轻女性提供时尚、高品质的服饰、鞋子和配饰。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p>电话: 400-123-4567</p>
+                    <p>邮箱: service@dreamyd.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-icons">
+                        <a href="#">微信</a>
+                        <a href="#">微博</a>
+                        <a href="#">小红书</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 DreamyD 女装时尚 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
